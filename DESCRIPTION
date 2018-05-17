@@ -1,0 +1,17 @@
+Package: datascienceR
+Title: Introductory Data Science in R
+Version: 0.0.0.9000
+Authors@R: person("Sidney", "Le", email = "sidney.h.le@gmail.com", role = c("aut", "cre"))
+Description: A translation of the `datascience` package in Python to R. The 
+  Python package was initially created for Data 8 at UC Berkeley, an 
+  introductory data science course. While the class was taught mostly in Python, 
+  much of the Statistics and Economics departments still use R. This package 
+  attempts to make the material and techniques in Data 8 accessible to R users.
+Depends: R (>= 3.4.3)
+License: GNU General Public License (GPL)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr,
+  ggplot2
+RoxygenNote: 6.0.1.9000
